@@ -1,0 +1,67 @@
+<!--18BCE2335, Anurag Parcha-->
+<!--Simple HTML for partiii questions. Includes both the forms for both questions-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANURAG PARCHA-18BCE2335</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--BELOW SECTION AND FORM IS FOR EVENT REGISTRATION , ANURAG PARCHA --18BCE2335 -->
+    <h1>Event Registration Form</h1>
+    <section class="container">
+        <form id="regform" action="" method="POST">
+            <div class="alert"></div>
+            <div class="erros">
+                <ul id="items">
+                </ul>
+            </div>
+            <div class="formGroup">
+                <label for="fullname">Full Name: </label>
+                <input type="text" id="fullName" placeholder="Full Name">
+            </div>
+            <div class="formGroup">
+                <label for="regno">Registration Number: </label>
+                <input type="text" id="regno" placeholder="Registration Number">
+            </div>
+            <div class="formGroup">
+                <label for="email">Email: </label>
+                <input type="text" id="email" placeholder="Email">
+            </div>
+            <div class="formGroup">
+                <label for="address">Pincode: </label>
+                <input type="text" id="address" placeholder="Enter a pincode in India">
+            </div>
+            <input class="button" type="submit" value="Submit">
+        </form>
+    </section>
+    <!--BELOW SECTION AND FORM IS FOR CREDIT CARD VALIDATION , ANURAG PARCHA --18BCE2335 -->
+    <h1>Credit Card Validation</h1>
+    <section class="container">
+        <form id="creditcardform" action="" method="POST">
+            <div class="alert"></div>
+            <div class="erros">
+                <ul id="items">
+                </ul>
+                <div class="formGroup">
+                    <label for="credCardName">Choose your type of Credit Card: </label>
+                    <input type="radio" name="credCardName" id="Visa">Visa <br>
+                    <input type="radio" name="credCardName" id="MasterCard">MasterCard <br>
+                    <input type="radio" name="credCardName" id="American Express">American Express <br>
+                </div>
+                <div class="formGroup">
+                    <label for="credcard">Credit Card: </label>
+                    <input type="text" id="credCard" placeholder="Credit Card Number(No spaces)">
+                </div>
+                <input class="button" type="submit" value="Submit">
+        </form>
+    </section>
+    <script src="Part3-2.js"></script>
+    <script src="Part3-1.js"></script>
+</body>
+
+</html>
